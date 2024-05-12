@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    if: github.repository_owner == 'manna-harbour'
+    if: github.repository_owner == 'landerslanding'
     uses: ./.github/workflows/main.yml
     with:
       keyboard: '["crkbd"]'
